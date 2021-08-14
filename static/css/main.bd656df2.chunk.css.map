@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,UAEC,QAAS,CACT,SAGD,CAEA,gBAJC,WAAY,CACZ,UAMD","file":"main.bd656df2.chunk.css","sourcesContent":["html,\nbody {\n\tmargin: 0;\n\tpadding: 0;\n\theight: 100%;\n\twidth: 100%;\n}\n\n#root {\n\theight: 100%;\n\twidth: 100%;\n}"]}

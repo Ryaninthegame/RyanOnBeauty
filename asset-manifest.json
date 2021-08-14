@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/RyanOnBeauty/static/css/main.bd656df2.chunk.css",
+    "main.js": "/RyanOnBeauty/static/js/main.3b811f6f.chunk.js",
+    "main.js.map": "/RyanOnBeauty/static/js/main.3b811f6f.chunk.js.map",
+    "runtime-main.js": "/RyanOnBeauty/static/js/runtime-main.bc320692.js",
+    "runtime-main.js.map": "/RyanOnBeauty/static/js/runtime-main.bc320692.js.map",
+    "static/js/2.3bf3a5ba.chunk.js": "/RyanOnBeauty/static/js/2.3bf3a5ba.chunk.js",
+    "static/js/2.3bf3a5ba.chunk.js.map": "/RyanOnBeauty/static/js/2.3bf3a5ba.chunk.js.map",
+    "static/js/3.1c036721.chunk.js": "/RyanOnBeauty/static/js/3.1c036721.chunk.js",
+    "static/js/3.1c036721.chunk.js.map": "/RyanOnBeauty/static/js/3.1c036721.chunk.js.map",
+    "index.html": "/RyanOnBeauty/index.html",
+    "static/css/main.bd656df2.chunk.css.map": "/RyanOnBeauty/static/css/main.bd656df2.chunk.css.map",
+    "static/js/2.3bf3a5ba.chunk.js.LICENSE.txt": "/RyanOnBeauty/static/js/2.3bf3a5ba.chunk.js.LICENSE.txt",
+    "static/media/Loading_rotate.15f35ab1.svg": "/RyanOnBeauty/static/media/Loading_rotate.15f35ab1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc320692.js",
+    "static/js/2.3bf3a5ba.chunk.js",
+    "static/css/main.bd656df2.chunk.css",
+    "static/js/main.3b811f6f.chunk.js"
+  ]
+}
