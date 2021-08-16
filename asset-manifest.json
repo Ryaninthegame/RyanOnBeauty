@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/RyanOnBeauty/static/css/main.bd656df2.chunk.css",
-    "main.js": "/RyanOnBeauty/static/js/main.0de29c6a.chunk.js",
-    "main.js.map": "/RyanOnBeauty/static/js/main.0de29c6a.chunk.js.map",
+    "main.js": "/RyanOnBeauty/static/js/main.3a4a6d7c.chunk.js",
+    "main.js.map": "/RyanOnBeauty/static/js/main.3a4a6d7c.chunk.js.map",
     "runtime-main.js": "/RyanOnBeauty/static/js/runtime-main.bc320692.js",
     "runtime-main.js.map": "/RyanOnBeauty/static/js/runtime-main.bc320692.js.map",
     "static/js/2.3bf3a5ba.chunk.js": "/RyanOnBeauty/static/js/2.3bf3a5ba.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.bc320692.js",
     "static/js/2.3bf3a5ba.chunk.js",
     "static/css/main.bd656df2.chunk.css",
-    "static/js/main.0de29c6a.chunk.js"
+    "static/js/main.3a4a6d7c.chunk.js"
   ]
 }
