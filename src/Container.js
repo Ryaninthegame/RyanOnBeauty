@@ -11,21 +11,20 @@ const Wrapper = styled.div`
     width: 80%;
 `
 
-const postData = (url, condition) => {
-    let headers = new Headers();
+const postData = (url) => {
+    const headers = new Headers();
     headers.append('user-agent', 'Example')
     headers.append('content-type', 'application/json')
     headers.append('Accept', 'application/json');
-    // headers.append('Access-Control-Allow-Origin', 'http://localhost:3000');
-    // headers.append('Access-Control-Allow-Credentials', 'true');
+    headers.append('Access-Control-Allow-Origin', 'http://localhost:3000/RyanOnBeauty');
+    headers.append('Access-Control-Allow-Credentials', 'true');
     headers.append('GET', 'POST', 'OPTIONS');
 
     return fetch(url, {
-        body: JSON.stringify(condition),
         cache: 'no-cache',
         credentials: 'same-origin',
         headers: headers,
-        method: 'POST',
+        method: 'GET',
         mode: 'cors',
         redirect: 'follow',
         referrer: 'no-referrer',
@@ -46,16 +45,8 @@ const Container = ({ loading, handleSetLoading }) => {
         return setArticleClicked(articleClicked);
     }
 
-    const getData = useCallback(() => {
-        let date = new Date()
-        let month = date.getMonth()+1
-        let day = date.getDate()-1
-        const condition = {
-            "bombLimit": 10,
-            "dateBegin": month+"/"+day,
-            "dateEnd": month+"/"+day
-        }
-        postData('https://backend-api-ryan.herokuapp.com/crawler', condition)
+    const getDataYesterday = useCallback(() => {
+        postData('https://flask-ryan.herokuapp.com/yesterday')
         .then((response) => response.json())
         .then((data) => {
             const results = data['content']
@@ -68,8 +59,8 @@ const Container = ({ loading, handleSetLoading }) => {
     }, [handleSetLoading])
 
     useEffect(() => {
-        getData()
-    }, [getData])
+        getDataYesterday()
+    }, [getDataYesterday])
     
     return(
         <Wrapper>

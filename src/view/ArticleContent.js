@@ -57,7 +57,7 @@ const ArticleContent = ({ articleClicked, content }) => {
         window.scrollTo(0, 0)
     }
     const imageSet = useMemo(() => {
-        return content[articleClicked].slice(1, content[articleClicked].length)
+        return content[articleClicked]
     }, [content, articleClicked])
 
     return(
